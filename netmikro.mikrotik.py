@@ -8,7 +8,7 @@ router_mikotik = {
         "device_type" : "mikrotik_routeros",
         "host" :  "192.168.1.1",
         "username" : "admin",
-        "password" : "Ctplus12!",
+        "password" : "PW",
         "port" : 22,}
 try:
     net_connect = ConnectHandler(**router_mikotik)
